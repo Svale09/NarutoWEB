@@ -3,17 +3,118 @@
     padding: 0;
 }
 
-.title_div{
-    margin: auto;
-    max-width: none;
-    background-image: linear-gradient(#395ba9,#FFEBB7);
-}
-
-.main_title{
-    text-align: center;
-    color: #a83900;
-}
-
 body{
-    background-color: #FFEBB7;
+    background-color: black;
+    border-style: solid;
+    border-color: orange;
+    border-width: 15px;
 }
+
+#main{
+    margin: 2% 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+#navigation_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px;
+    padding-bottom: 20px;
+    border-bottom: thin solid white;
+}
+
+#logo{
+    width: 150px;
+    margin: 0px 0px 0px 20px;
+}
+
+#navigation_items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navigation_item{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0px 30px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.navigation_item:hover{
+    font-family: 'Montserrat', sans-serif;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.navigation_item:active{
+    font-family: 'Montserrat', sans-serif;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#nav_current{
+    font-family: 'Montserrat', sans-serif;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+h1{
+    margin: 25px 0px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content_info{
+    display: flex;
+    flex-direction: row;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 0px 7px;
+    border-left: thin white solid;
+    border-right: thin white solid;
+}
+
+.content_body{
+    line-height: 1.5;
+    margin: 25px 0px;
+    inline-size: 400px;
+    overflow: visible;
+    word-wrap: break-word;
+    hyphens: manual;
+}
+
+a:visited{
+    color: gray;
+}
+
+
+
+
