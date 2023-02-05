@@ -83,12 +83,17 @@ p{
     font-family: 'Montserrat', sans-serif;
 }
 
-.content{
+#content{
+    display: flex;
+    flex-direction: row;
+}
+
+.content_info{
     display: flex;
     flex-direction: column;
 }
 
-.content_info{
+.content_quick_info{
     display: flex;
     flex-direction: row;
 }
@@ -102,7 +107,7 @@ h3{
     border-right: thin white solid;
 }
 
-.content_body{
+.content_full{
     line-height: 1.5;
     margin: 25px 0px;
     inline-size: 400px;
@@ -114,6 +119,27 @@ h3{
 a:visited{
     color: gray;
 }
+
+#container{
+    position: relative;
+    margin: 1% 8%;
+}
+
+#img1{
+    position: absolute;
+    z-index: 2;
+    top: 12%;
+    left: 300px;
+}
+
+#img2{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+
 
 
 
