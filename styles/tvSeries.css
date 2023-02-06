@@ -78,25 +78,30 @@ h1{
     color: white;
 }
 
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
 p{
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
 
-#content{
-    display: flex;
-    flex-direction: row;
-    border-bottom: thin white solid;
-}
-
-.content_info{
+.content{
     display: flex;
     flex-direction: column;
 }
 
-.content_quick_info{
-    display: flex;
+.content_item{
+    display:flex;
     flex-direction: row;
+    justify-content: space-around;
+    margin: 2%;
+    border-radius: 10px;
+    background-color: #252525;
+    width: inherit;
+
 }
 
 h3{
@@ -106,15 +111,6 @@ h3{
     padding: 0px 7px;
     border-left: thin white solid;
     border-right: thin white solid;
-}
-
-.content_full{
-    line-height: 1.5;
-    margin: 25px 0px;
-    inline-size: 400px;
-    overflow: visible;
-    word-wrap: break-word;
-    hyphens: manual;
 }
 
 a:visited{
